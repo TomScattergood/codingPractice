@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-    int choice = (int) (Math.random());
+    int choice = (int) (Math.random()*10);
     String message;
 
     System.out.println(choice);
@@ -21,12 +21,12 @@ public class Main {
     System.out.println(message);
     System.out.println(string);
 
-    int num = 2;
         switch (choice) {
             case 0 -> System.out.println("Case is 0");
             case 1 -> System.out.println("Case is 1");
             case 2 -> System.out.println("Case is 2");
-            default -> System.out.println("Case is 3");
+            case 3 -> System.out.println("Case is 3");
+            default -> System.out.println("Case is 4+");
         }
 
         boolean playAgain = true;
