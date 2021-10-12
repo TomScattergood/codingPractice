@@ -38,7 +38,7 @@ public class Main {
             }
             System.out.println(count++);
         }
-        count = 0;
+        count=0;
         do{
             if (count>10){
                 playAgain =true;
