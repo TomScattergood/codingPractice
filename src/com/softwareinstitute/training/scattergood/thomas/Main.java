@@ -47,7 +47,7 @@ public class Main {
         }while(!playAgain);
 
 
-        for ( int i = 1; i<10; i++) {
+        for (int i = 1; i<10; i++) {
             System.out.println("I have " +i+ " friends");
         }
 
