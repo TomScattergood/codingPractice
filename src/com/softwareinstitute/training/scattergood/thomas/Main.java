@@ -10,6 +10,7 @@ public class Main {
     String message;
 
     System.out.println(choice);
+
     if (choice == 1){
         message = "Happy Birthday";
     }
@@ -84,7 +85,7 @@ public class Main {
 
         //multi dimensional arrays (2d grid example)
         int count1 = 0;
-        int grid_counter[][] = new int[15][12];
+        int[][] grid_counter = new int[15][12];
 
         for(int i = 0; i < grid_counter.length; i++){
             for(int j =0; j<grid_counter[i].length; j++){
